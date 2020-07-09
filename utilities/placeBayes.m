@@ -1,5 +1,5 @@
 function [Pr, prMax] = placeBayes(Cr, rateMap, binLength)
-%function out = placeBayes1(Cr, rateMap, binLength)
+%function [Pr, prMax] = placeBayes(Cr, rateMap, binLength)
 % Inputs:
 % Cr = [nTemporalBin X nCell] matrix of binned firing rates
 % rateMap = [nSpatialBin X nCell] firing rate 'template'
